@@ -1,0 +1,98 @@
+
+body{
+    width: 50vw;
+    background-color: blue;
+    background-attachment: scroll;
+}
+
+#blockPage{
+    background-color: burlywood;
+    height: 100vh;
+    border: solid 2px black;
+}
+header{
+    background-color: rgb(109, 106, 144);
+    height: 18%;
+    padding: 1%;
+    border: solid 4px black;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header>#titre_principal{
+    background-color: cadetblue;
+    height: 100%;
+    width: 20%;
+    margin-right:20% ;
+}
+
+header>nav{
+    background-color: beige;
+    height: 20%;
+    width: 60%;
+    margin-top: 15%;
+}
+
+#banniere_image{
+    background-color: blue;
+    height: 15%;
+    border: solid 4px black;
+    margin-bottom: 2%;
+}
+
+section{
+    background-color: chartreuse;
+    height: 50%;
+    border: solid 4px black;
+    margin-bottom: 2%;
+    padding: 1%;
+    display: flex;
+}
+
+section>article{
+    background-color: green;
+    height: 100%;
+    width: 50%;
+    margin-bottom: 2%;
+    align-items: flex-start;
+    margin-right: 40px;
+}
+
+section>aside{
+    background-color: orange;
+    height:80%;
+    width: 30%;
+    align-items: flex-start;
+
+}
+
+footer{
+    display: flex;
+    background-color: rgb(5, 93, 5);
+    height: 10%;
+    border: solid 4px black;
+    margin-bottom: 2%;
+    padding: 2%;
+    
+}
+
+footer>#tweet{
+    flex-grow: 1;
+    background-color: darkslateblue;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+footer>#mes_photo{
+    flex-grow: 0.5;
+    background-color: olivedrab;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+footer>#mes_amis{
+    flex-grow: 0.5;
+    background-color: grey;
+    height: 100%;
+}
